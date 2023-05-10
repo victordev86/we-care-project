@@ -19,6 +19,10 @@ a {
     cursor: pointer;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 .button-header {
     font-weight: 600;
     font-size: 24px;
@@ -30,6 +34,14 @@ a {
     padding: 6px 21px;
     border: none;
     cursor: pointer;
+}
+
+.button-header:hover{
+    opacity: 0.8;
+}
+
+.button-header:active{
+    opacity: 0.6;
 }
 
 h1 {
@@ -71,6 +83,14 @@ p {
     padding: 15px 46px 23px;
 }
 
+.button-main:hover{
+    opacity: 0.8;
+}
+
+.button-main:active{
+    opacity: 0.6;
+}
+
 img {
     display: inline-block;
     margin: 144px 86px 0 125px;
@@ -110,7 +130,7 @@ section {
         display: block;
         margin: auto;
         width: 380px;
-        margin-top: 147px;
+        margin-top: 120px;
     }
 
     section {
@@ -118,4 +138,10 @@ section {
         text-align: center;
         margin-top: 50px;
     }
+
+    .button-main {
+        padding: 15px 46px 15px;
+        margin-bottom: 15px;
+    }
+
 }
